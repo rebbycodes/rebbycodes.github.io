@@ -1,5 +1,19 @@
 element {
 
+}
+body, html {
+
+    width: 100%;
+
+}
+html {
+
+    overflow-x: hidden;
+
+}
+
+element {
+
     padding-top: 0px;
 
 }
@@ -8,226 +22,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-}
-body {
-
-    background: #fff;
-        background-repeat: repeat;
-        background-attachment: scroll;
-        background-size: auto auto;
     color: #4a4a4a;
-
-}
-body, html {
-
     width: 100%;
-
-}
-*, body {
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: Brandon;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.265;
-
-}
-body {
-
-    line-height: 1;
-
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-
-    margin: 0;
-    padding: 0;
-        padding-top: 0px;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-        font-family: inherit;
-        font-weight: inherit;
-        font-size: inherit;
-        line-height: inherit;
-    vertical-align: baseline;
-
 }
 
-element {
 
-    display: none;
-    opacity: 0.05;
-    top: -6px;
-    width: 100%;
-    height: auto;
-
-}
-#CybotCookiebotDialog {
-
-    animation: none;
-        animation-timing-function: ease;
-        animation-direction: normal;
-        animation-fill-mode: none;
-        animation-iteration-count: 1;
-        animation-play-state: running;
-        animation-name: none;
-    animation-delay: 0;
-    animation-direction: normal;
-    animation-duration: 0;
-    animation-fill-mode: none;
-    animation-iteration-count: 1;
-    animation-name: none;
-    animation-play-state: running;
-    animation-timing-function: ease;
-    backface-visibility: visible;
-    background: #ffffff;
-        background-clip: border-box;
-        background-origin: padding-box;
-        background-position-x: 0%;
-        background-position-y: 0%;
-        background-size: auto auto;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-position-x: 0;
-    background-position-y: 0;
-    background-size: auto auto;
-    border: 0;
-    border-width: medium;
-    border-color: inherit;
-    border-bottom: 0;
-        border-bottom-color: currentcolor;
-    border-bottom-color: inherit;
-    border-collapse: separate;
-    border-image: none;
-    border-left: 0;
-        border-left-color: currentcolor;
-    border-left-color: inherit;
-    border-radius: 0;
-    border-right: 0;
-        border-right-color: currentcolor;
-    border-right-color: inherit;
-    border-spacing: 0;
-    border-top: 0;
-        border-top-color: currentcolor;
-    border-top-color: inherit;
-    bottom: auto;
-    caption-side: top;
-    clear: none;
-    clip: auto;
-    columns: auto;
-    column-count: auto;
-    column-fill: balance;
-    column-gap: normal;
-    column-rule: medium none currentColor;
-        column-rule-style: none;
-        column-rule-color: currentcolor;
-    column-rule-color: currentColor;
-    column-rule-style: none;
-    column-rule-width: none;
-    column-span: 1;
-    column-width: auto;
-    content: normal;
-    counter-increment: none;
-    counter-reset: none;
-    cursor: auto;
-    display: inline;
-    empty-cells: show;
-    font: 400;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    hyphens: none;
-    list-style: disc;
-    max-height: none;
-    max-width: none;
-    min-height: 0;
-    min-width: 0;
-    orphans: 0;
-    outline: 0;
-        outline-width: 0px;
-    outline-width: medium;
-    overflow: visible;
-    overflow-x: visible;
-    overflow-y: visible;
-    page-break-after: auto;
-    page-break-before: auto;
-    page-break-inside: auto;
-    perspective: none;
-    perspective-origin: 50% 50%;
-    right: auto;
-    tab-size: 8;
-    table-layout: auto;
-    text-align-last: auto;
-    text-decoration: none;
-    text-decoration-color: inherit;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-indent: 0;
-    text-shadow: none;
-    text-transform: none;
-    transform: none;
-    transform-style: flat;
-    transition: none;
-    transition-delay: 0s;
-    transition-duration: 0s;
-    transition-property: none;
-    transition-timing-function: ease;
-    vertical-align: baseline;
-    white-space: normal;
-    widows: 0;
-    word-spacing: normal;
-    position: fixed;
-    z-index: 2147483645;
-    top: -800px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    opacity: 1;
-    filter: Alpha(opacity=100);
-    color: #2a2a2a;
-    font-family: 'Segoe UI',Arial,Helvetica,Verdana,sans-serif;
-    font-size: 8pt;
-    box-shadow: #121212 2px 2px 14px 2px;
-    padding: 0 0 8px;
-    line-height: 1.231;
-    margin: 0;
-    text-rendering: geometricPrecision;
-
-}
-#CybotCookiebotDialog, #CybotCookiebotDialog::after, #CybotCookiebotDialog::before, .CybotCookiebotDialogBodyButton::after, .CybotCookiebotDialogBodyButton::before {
-
-    box-sizing: content-box;
-
-}
-#CybotCookiebotDialog, #CybotCookiebotDialogBodyContentTitle {
-
-    visibility: visible;
-    letter-spacing: normal;
-    float: none;
-    text-align: left;
-
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-        font-family: inherit;
-        font-style: inherit;
-        font-weight: inherit;
-        font-size: inherit;
-        line-height: inherit;
-        font-variant-alternates: inherit;
-        font-variant-caps: inherit;
-        font-variant-east-asian: inherit;
-        font-variant-ligatures: inherit;
-        font-variant-numeric: inherit;
-        font-variant-position: inherit;
-    vertical-align: baseline;
-    align-content: ;
-
-}
