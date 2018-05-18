@@ -1,12 +1,554 @@
- <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<title>TuneCore: Sell Your Music Online - Digital Music Distribution</title>
+        <script src="https://cdn.optimizely.com/js/7620104.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WD6DVZ');</script>
+<!-- End Google Tag Manager -->		<link href="//www.google-analytics.com" rel="dns-prefetch">
+	<script type="application/javascript">
+		function cookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+			}
+			return null;
+		}
+		if( cookie('tc_active_session') ){
+			window.location = "https://web.tunecore.com/dashboard";				
+		}
+</script>
+		
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="https://www.tunecore.com/wp-content/themes/tunecore/img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+<!-- This site is optimized with the Yoast SEO plugin v7.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Sell your music on iTunes, Spotify, Google Play, Amazon, Tidal, &amp; Deezer! Get your music in 150+ stores and keep all of your rights &amp; revenue. Free sign up."/>
+<link rel="canonical" href="https://www.tunecore.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="TuneCore: Sell Your Music Online - Digital Music Distribution" />
+<meta property="og:description" content="Sell your music on iTunes, Spotify, Google Play, Amazon, Tidal, &amp; Deezer! Get your music in 150+ stores and keep all of your rights &amp; revenue. Free sign up." />
+<meta property="og:url" content="https://www.tunecore.com/" />
+<meta property="og:site_name" content="TuneCore" />
+<meta property="og:image" content="https://www.tunecore.com/wp-content/uploads/Spotify_logo_black-250x75.png" />
+<meta property="og:image:secure_url" content="https://www.tunecore.com/wp-content/uploads/Spotify_logo_black-250x75.png" />
+<meta property="og:image" content="https://www.tunecore.com/wp-content/uploads/applemusic0-250x59.png" />
+<meta property="og:image:secure_url" content="https://www.tunecore.com/wp-content/uploads/applemusic0-250x59.png" />
+<meta property="og:image" content="https://www.tunecore.com/wp-content/uploads/Amazon.png" />
+<meta property="og:image:secure_url" content="https://www.tunecore.com/wp-content/uploads/Amazon.png" />
+<meta property="og:image" content="https://www.tunecore.com/wp-content/uploads/GooglePlay.png" />
+<meta property="og:image:secure_url" content="https://www.tunecore.com/wp-content/uploads/GooglePlay.png" />
+<meta property="og:image" content="https://www.tunecore.com/wp-content/uploads/YouTube.png" />
+<meta property="og:image:secure_url" content="https://www.tunecore.com/wp-content/uploads/YouTube.png" />
+<meta property="og:image" content="https://www.tunecore.com/wp-content/uploads/More.png" />
+<meta property="og:image:secure_url" content="https://www.tunecore.com/wp-content/uploads/More.png" />
+<meta property="og:image" content="http://tunecore.wpengine.com/wp-content/uploads/phones.1x.png" />
+<meta property="og:image" content="http://tunecore.wpengine.com/wp-content/themes/tunecore/img/tunecore-icons/play.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Sell your music on iTunes, Spotify, Google Play, Amazon, Tidal, &amp; Deezer! Get your music in 150+ stores and keep all of your rights &amp; revenue. Free sign up." />
+<meta name="twitter:title" content="TuneCore: Sell Your Music Online - Digital Music Distribution" />
+<meta name="twitter:image" content="https://www.tunecore.com/wp-content/uploads/Spotify_logo_black-250x75.png" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.tunecore.com\/","name":"TuneCore","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.tunecore.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
 
-<body>
-<p> Hello World </p>
-</body>
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//maps.google.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='fl-builder-layout-9-css'  href='https://www.tunecore.com/wp-content/uploads/bb-plugin/cache/9-layout.css?ver=b1766ad01f063b8d54872ff3aff1c357' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap_css-css'  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='slick_css-css'  href='https://www.tunecore.com/wp-content/themes/tunecore/js/slick/slick.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='slick_theme_css-css'  href='https://www.tunecore.com/wp-content/themes/tunecore/js/slick/slick-theme.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='main_css-css'  href='https://www.tunecore.com/wp-content/themes/tunecore/style.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='animate_css-css'  href='https://www.tunecore.com/wp-content/themes/tunecore/css/animate.css?ver=4.9.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.tunecore.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?ver=4.9.5'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-content/themes/tunecore/js/slick/slick.js?ver=4.9.5'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-content/themes/tunecore/js/scripts.js?ver=4.9.5'></script>
+<script type='text/javascript' src='//maps.google.com/maps/api/js?key=AIzaSyBd0eCQr5kzJN8OrZ9tPTulcAtvME2Kg58&#038;ver=4.9.5'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-content/themes/tunecore/js/parallax.min.js?ver=4.9.5'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-content/themes/tunecore/js/parallaxie.js?ver=4.9.5'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-content/themes/tunecore/js/wow.min.js?ver=4.9.5'></script>
+<link rel='https://api.w.org/' href='https://www.tunecore.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.tunecore.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.tunecore.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.tunecore.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.tunecore.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.tunecore.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.tunecore.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.tunecore.com%2F&#038;format=xml" />
+        <link rel="alternate" hreflang="de" href="https://www.tunecore.com.de/" title="de_DE">
+<link rel="alternate" hreflang="en_AU" href="https://www.tunecore.com.au/" title="en_AU">
+<link rel="alternate" hreflang="en_CA" href="https://ca.tunecore.com/" title="en_CA">
+<link rel="alternate" hreflang="en_GB" href="https://www.tunecore.co.uk/" title="en_GB">
+<link rel="alternate" hreflang="en_US" href="https://www.tunecore.com/" title="us">	</head>
+	<body>
+        		<div class="shim"></div>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<a href="https://www.tunecore.com"><img src="https://www.tunecore.com/wp-content/themes/tunecore/images/tc_logo_white_blue_bg.png"></a>
+					</div>
+					<div class="col-xs-10 text-right visible-lg visible-md">
+						<div class="menu-container"><ul><li id="menu-item-31775" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31775"><a href="https://www.tunecore.com/sell-your-music-online">Sell Your Music</a></li>
+<li id="menu-item-31773" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31773"><a href="https://www.tunecore.com/music-publishing-administration">Music Publishing</a></li>
+<li id="menu-item-31771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31771"><a href="https://www.tunecore.com/artist-services">Artist Services</a></li>
+<li id="menu-item-31774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31774"><a href="https://www.tunecore.com/pricing">Pricing</a></li>
+<li id="menu-item-31772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31772"><a href="https://www.tunecore.com/blog">Blog</a></li>
+<li id="menu-item-31776" class="btn-login menu-item menu-item-type-custom menu-item-object-custom menu-item-31776"><a href="https://web.tunecore.com/login">Login</a></li>
+<li id="menu-item-32067" class="sign-up btn-sign-up menu-item menu-item-type-custom menu-item-object-custom menu-item-32067"><a href="https://web.tunecore.com/signup">Sign Up</a></li>
+<li id="menu-item-32068" class="sign-up btn-dashboard menu-item menu-item-type-custom menu-item-object-custom menu-item-32068"><a href="https://web.tunecore.com/dashboard">Dashboard</a></li>
+</ul></div>					</div>
+					<div class="col-xs-10 text-right visible-xs visible-sm" style="position: fixed; right: 60px; top:0;">
+						<div class="menu-container"><ul><li id="menu-item-32071" class="btn-login menu-item menu-item-type-custom menu-item-object-custom menu-item-32071"><a href="https://web.tunecore.com/login">Login</a></li>
+<li id="menu-item-32069" class="sign-up btn-sign-up menu-item menu-item-type-custom menu-item-object-custom menu-item-32069"><a href="https://web.tunecore.com/signup">Sign Up</a></li>
+<li id="menu-item-32070" class="sign-up btn-dashboard menu-item menu-item-type-custom menu-item-object-custom menu-item-32070"><a href="https://web.tunecore.com/dashboard">Dashboard</a></li>
+</ul></div>					</div>
+				</div>
+			</div>
+		</header>
+		
+<div class="button_container visible-sm visible-xs" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
 
-</html> 
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <div class="menu-container"><ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31775"><a href="https://www.tunecore.com/sell-your-music-online">Sell Your Music</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31773"><a href="https://www.tunecore.com/music-publishing-administration">Music Publishing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31771"><a href="https://www.tunecore.com/artist-services">Artist Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31774"><a href="https://www.tunecore.com/pricing">Pricing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31772"><a href="https://www.tunecore.com/blog">Blog</a></li>
+<li class="btn-login menu-item menu-item-type-custom menu-item-object-custom menu-item-31776"><a href="https://web.tunecore.com/login">Login</a></li>
+<li class="sign-up btn-sign-up menu-item menu-item-type-custom menu-item-object-custom menu-item-32067"><a href="https://web.tunecore.com/signup">Sign Up</a></li>
+<li class="sign-up btn-dashboard menu-item menu-item-type-custom menu-item-object-custom menu-item-32068"><a href="https://web.tunecore.com/dashboard">Dashboard</a></li>
+</ul></div>    </ul>
+  </nav>
+</div><main>
+					<!-- article -->
+			<article id="post-9" class="post-9 page type-page status-publish hentry">
+				<div class="fl-builder-content fl-builder-content-9 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="9"><div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5ab30d2b27f4b" data-node="5ab30d2b27f4b">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5ab30d2b27e7c" data-node="5ab30d2b27e7c">
+			<div class="fl-col fl-node-5ab30d2b27ec9" data-node="5ab30d2b27ec9">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-tunecore-hero-module fl-node-5ab30d2b27f0b" data-node="5ab30d2b27f0b">
+	<div class="fl-module-content fl-node-content">
+		<style>
+	.tunecore-hero .hero-icon{
+				}
+	
+	.tunecore-hero .tunecore-hero-container .container{
+			}
+	.tunecore-hero h1{
+					}
+	@media (max-width: 767px) {
+		.tunecore-hero{
+			background-image: url(https://www.tunecore.com/wp-content/uploads/1_mobile.jpg)  !important;
+		}
+	}
+	@media (min-width: 767px) {
+		.tunecore-hero .tunecore-hero-container .container{
+			margin-bottom: 0;	
+		}
+		.tunecore-hero .hero-icon{
+					}
+		.tunecore-hero h1{
+					}
+	}
+	@media (min-width: 992px) {
+		.tunecore-hero .hero-icon{
+					}
+		.tunecore-hero h1{
+					}
+	}
+</style>
+<div class="tunecore-hero dark top-right parallax-window" data-parallax="scroll"  data-image-src="https://www.tunecore.com/wp-content/uploads/hero1-2.jpg"data-position="48px right">
+	<div class="tunecore-hero-container center-vertical">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+								<h1>SELL YOUR MUSIC WORLDWIDE</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-8 col-sm-6 initial">
+				<div><ul><li>Get your music on Spotify, iTunes, Tidal, Google Play, Amazon Music &amp; more</li><li>Share your music and grow your fan base</li><li>Keep 100% of the sales revenue from the music you distribute</li></ul></div>
+									<a class="tunecore-btn tunecore-hero-btn" href="https://web.tunecore.com/signup" target="self">Sign Up Now</a>
+							</div>
+			<span class="hidden-xs hero-caption">Devvon Terrell,<br>TuneCore Artist</span>
+		</div>
+	</div>
+	</div>
+	<a id="heroScroll" href="#heroScroll" data-offset="15" class="scroll hidden-xs"></a>
+</div>	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5ab28e9103347" data-node="5ab28e9103347">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5ab28e9103270" data-node="5ab28e9103270">
+			<div class="fl-col fl-node-5ab28e91032bf" data-node="5ab28e91032bf">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-tunecore-basic-module fl-node-5ab28e9103304" data-node="5ab28e9103304">
+	<div class="fl-module-content fl-node-content">
+			<div class="tunecore-basic tunecore-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>
+						How to Sell Your Music Online					</h2>
+										<div class="content">
+						<p>Before TuneCore, artists needed a label to get their music sold online. In 2006, we changed the game by partnering with digital stores to allow any musician to sell their songs worldwide while keeping 100% of their sales revenue. Today, TuneCore is the world’s leading digital music aggregator. Upload your music, complete the checkout, and we’ll do the rest. Your music will hit digital stores like Spotify and Apple Music in as little as 24 hours.</p><div class="row flex-row text-center"><div class="col-sm-2 col-xs-4 justify-center logo"><a title="Get your music on Spotify" href="/get-your-music-on-spotify"><img class="alignnone" title="Get your music on Spotify" src="/wp-content/uploads/Spotify_logo_black-250x75.png" alt="" width="250" height="75" /></a></div><div class="col-sm-2 col-xs-4 justify-center logo"><a title="Sell your music on iTunes" href="/sell-your-music-on-itunes"><img class="alignnone" src="/wp-content/uploads/applemusic0-250x59.png" alt="" width="250" height="59" /></a></div><div class="col-sm-2 col-xs-4 justify-center logo"><a title="Sell your music on Amazon" href="/sell-your-music-on-amazon"><img class="alignnone" src="/wp-content/uploads/Amazon.png" alt="" width="179" height="51" /></a></div><div class="col-sm-2 col-xs-4 justify-center logo"><a title="Sell your music on Google Play" href="/sell-your-music-on-google-play"><img src="/wp-content/uploads/GooglePlay.png" /></a></div><div class="col-sm-2 col-xs-4 justify-center logo"><a title="Get your music on Youtube" href="/get-your-music-on-youtube"><img src="/wp-content/uploads/YouTube.png" /></a></div><div class="col-sm-2 col-xs-4 justify-center logo"><a title="Digital Music Stores" href="/digital-music-stores"><img src="/wp-content/uploads/More.png" /></a></div></div>											</div>
+				</div>
+			</div>
+		</div>
+	</div>	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5ab29dee2d458" data-node="5ab29dee2d458">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5ab29dee3620f" data-node="5ab29dee3620f">
+			<div class="fl-col fl-node-5ab29dee363cd" data-node="5ab29dee363cd">
+	<div class="fl-col-content fl-node-content">
+	<div id="why-choose-tunecore" class="fl-module fl-module-tunecore-block fl-node-5ab29dee2d10a" data-node="5ab29dee2d10a">
+	<div class="fl-module-content fl-node-content">
+		
+<style>
+	#tunecore-5ab29dee2d10a{
+		background-image: url(https://www.tunecore.com/wp-content/uploads/Why_TuneCore_Singing_Artist.png);background-position: center left;background-size: cover;	}
+</style>
+<div id="tunecore-5ab29dee2d10a" class="tunecore-two-column tunecore-block right "  >	
+	<div class="container two-col-container center-vertical">
+		
+				<div class="visible-xs visible-sm">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Why Choose Tunecore</h2>				<div class="content"><h4>Worldwide Music Distribution</h4>
+<p>Get your music playing in over 150 digital stores and streaming services across 100+ countries worldwide.</p>
+<h4>Keep 100% of Your Sales</h4>
+<p>TuneCore never takes a cut of your sales. Every penny you earn is put right into your TuneCore account.</p>
+<h4>Comprehensive Sales Data</h4>
+<p>Find out exactly where fans are downloading and streaming your music so you can increase marketing efforts and plan tours around those cities.</p>
+<p><a class="tunecore-btn" href="https://web.tunecore.com/signup">Join TuneCore</a></p>
+</div>
+			</div>
+		</div>
+		</div>
+		<div class="hidden-xs hidden-sm">
+		<div class="row flex-row">
+						<div class="col-md-6 justify-center">
+							</div>
+						<div class="col-md-6 justify-center white-shadow">
+				<h2>Why Choose Tunecore</h2>
+				<div class="content"><h4>Worldwide Music Distribution</h4>
+<p>Get your music playing in over 150 digital stores and streaming services across 100+ countries worldwide.</p>
+<h4>Keep 100% of Your Sales</h4>
+<p>TuneCore never takes a cut of your sales. Every penny you earn is put right into your TuneCore account.</p>
+<h4>Comprehensive Sales Data</h4>
+<p>Find out exactly where fans are downloading and streaming your music so you can increase marketing efforts and plan tours around those cities.</p>
+<p><a class="tunecore-btn" href="https://web.tunecore.com/signup">Join TuneCore</a></p>
+</div>
+			</div>
+					</div>
+		</div>
+	</div>
+</div>	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5ac21f23b0822" data-node="5ac21f23b0822">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5ac21f23b0a32" data-node="5ac21f23b0a32">
+			<div class="fl-col fl-node-5ac21f23b0a7d" data-node="5ac21f23b0a7d">
+	<div class="fl-col-content fl-node-content">
+	<div id="why-choose-tunecore" class="fl-module fl-module-tunecore-block fl-node-5ac21f23b0ac5" data-node="5ac21f23b0ac5">
+	<div class="fl-module-content fl-node-content">
+		
+<style>
+	#tunecore-5ac21f23b0ac5{
+		background-position: top-left;	}
+</style>
+<div id="tunecore-5ac21f23b0ac5" class="tunecore-two-column tunecore-block left "  >	
+	<div class="container two-col-container center-vertical">
+		
+				<div class="visible-sm">
+			<div class="row flex-row">
+
+				<div class="col-sm-5 justify-center">
+										<img src="https://www.tunecore.com/wp-content/uploads/phones.1x.png" alt="" class="img-resp">
+									</div>
+				<div class="col-sm-7 justify-center">
+					<h2>Promote Your Music on Social Media</h2>
+				</div>
+
+			</div>
+		</div>
+		<div class="visible-xs">
+			<div class="row flex-row">
+
+				<div class="col-xs-6 col-xs-offset-3 justify-center">
+										<img src="https://www.tunecore.com/wp-content/uploads/phones.1x.png" alt=""  class="img-resp">
+									</div>
+				<div class="col-xs-12 justify-center">
+					<h2>Promote Your Music on Social Media</h2>
+				</div>
+
+			</div>
+		</div>
+				<div class="visible-xs visible-sm">
+		<div class="row">
+			<div class="col-xs-12">
+								<div class="content"><h4>Whether you’re just starting out, or you’re reaching followers in the millions, TuneCore Social Pro can help you no matter where you’re at in your career.</h4>
+<p>TuneCore Social is a social media marketing tool for musicians that lets you post and schedule unlimited updates to Facebook, Twitter, Instagram, Soundcloud, YouTube, and Mixcloud. See what fans are reacting to and generate reports for booking agents &amp; managers with comprehensive social stats. Plus, you can do it all on the go with the TuneCore Social Pro mobile app.</p>
+<p><a class="tunecore-btn" href="/social">Learn More</a></p>
+</div>
+			</div>
+		</div>
+		</div>
+		<div class="hidden-xs hidden-sm">
+		<div class="row flex-row">
+						<div class="col-md-7 justify-center white-shadow">
+				<h2>Promote Your Music on Social Media</h2>
+				<div class="content"><h4>Whether you’re just starting out, or you’re reaching followers in the millions, TuneCore Social Pro can help you no matter where you’re at in your career.</h4>
+<p>TuneCore Social is a social media marketing tool for musicians that lets you post and schedule unlimited updates to Facebook, Twitter, Instagram, Soundcloud, YouTube, and Mixcloud. See what fans are reacting to and generate reports for booking agents &amp; managers with comprehensive social stats. Plus, you can do it all on the go with the TuneCore Social Pro mobile app.</p>
+<p><a class="tunecore-btn" href="/social">Learn More</a></p>
+</div>
+			</div>
+						<div class="col-md-5 justify-center">
+								<img src="https://www.tunecore.com/wp-content/uploads/phones.1x.png" alt=""  class="img-resp">
+											</div>
+					</div>
+		</div>
+	</div>
+</div>	</div>
+</div>
+	</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-5ac21f8e6369d" data-node="5ac21f8e6369d">
+			<div class="fl-col fl-node-5ac21f8e6390e" data-node="5ac21f8e6390e">
+	<div class="fl-col-content fl-node-content">
+	<div id="why-choose-tunecore" class="fl-module fl-module-tunecore-block fl-node-5ac21f890adff" data-node="5ac21f890adff">
+	<div class="fl-module-content fl-node-content">
+		
+<style>
+	#tunecore-5ac21f890adff{
+		background-image: url(https://www.tunecore.com/wp-content/uploads/Songwriter_Process_desktop.png);background-position: bottom left;	}
+</style>
+<div id="tunecore-5ac21f890adff" class="tunecore-two-column tunecore-block right "  >	
+	<div class="container two-col-container center-vertical">
+		
+				<div class="visible-xs visible-sm">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Songwriter Services</h2>				<div class="content"><h4>As an independent songwriter, when your music is sold, streamed, or played on the radio or on the internet, it could be generating income from multiple types of royalties. This is in addition to the money you are already earning as a TuneCore artist. Let us help you collect your money by:</h4>
+<ul>
+<li>Registering your compositions at societies in over 60 countries around the world</li>
+<li>Registering and administering your music on YouTube</li>
+<li>Pitching your music for films, television, commercials, video games &amp; more</li>
+<li>All while keeping 100% of your music rights</li>
+</ul>
+<p><a href="/music-publishing-administration" class="tunecore-btn">Learn More</a></p>
+</div>
+			</div>
+		</div>
+		</div>
+		<div class="hidden-xs hidden-sm">
+		<div class="row flex-row">
+						<div class="col-md-5 justify-center">
+							</div>
+						<div class="col-md-7 justify-center white-shadow">
+				<h2>Songwriter Services</h2>
+				<div class="content"><h4>As an independent songwriter, when your music is sold, streamed, or played on the radio or on the internet, it could be generating income from multiple types of royalties. This is in addition to the money you are already earning as a TuneCore artist. Let us help you collect your money by:</h4>
+<ul>
+<li>Registering your compositions at societies in over 60 countries around the world</li>
+<li>Registering and administering your music on YouTube</li>
+<li>Pitching your music for films, television, commercials, video games &amp; more</li>
+<li>All while keeping 100% of your music rights</li>
+</ul>
+<p><a href="/music-publishing-administration" class="tunecore-btn">Learn More</a></p>
+</div>
+			</div>
+					</div>
+		</div>
+	</div>
+</div>	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5ab3abc70716a" data-node="5ab3abc70716a">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5ab3abc70c71b" data-node="5ab3abc70c71b">
+			<div class="fl-col fl-node-5ab3abc70c862" data-node="5ab3abc70c862">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-tunecore-video-module fl-node-5ab3abc706f82" data-node="5ab3abc706f82">
+	<div class="fl-module-content fl-node-content">
+		<div class="tunecore-block tunecore-video" style="background-image: url(https://www.tunecore.com/wp-content/uploads/TuneCore_Presents_Artist_Spotlight_Devvon_Terrell_desktop.png);">
+<div class="container center-vertical">
+	<div class="row">
+		<div class="center-vertical col-sm-6 col-xs-12">
+			<h2>TUNECORE PRESENTS: ARTIST SPOTLIGHT</h2>
+			<a href="#video" class="tunecore-btn tunecore-btn-white modal-open visible-xs" data-url="https://www.youtube.com/embed/e5-lrvqRbH8">Play Video</a>
+		</div>
+	</div>
+	<a href="#video" class="play modal-open hidden-xs" data-url="https://www.youtube.com/embed/e5-lrvqRbH8"><img src="https://www.tunecore.com/wp-content/themes/tunecore/img/tunecore-icons/play.svg"></a>
+</div>
+</div>	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div>							</article>
+			<!-- /article -->
+		
+		</main>
+			<!-- footer -->
+			<footer role="contentinfo">
+				<div class="container">
+				<div class="row flex-row justify-center center-vertical blog-posts">
+                    <div class="col-sm-2 hidden-xs center-vertical">
+                        <h2>On Our Blog</h2>
+                    </div>
+                    <div class="col-sm-6 hidden-xs center-vertical">
+                                                    <h4><a href="https://www.tunecore.com/blog/2018/05/how-to-write-produce-hit-song-in-2018.html">How To Write and Produce a Hit Song In 2018</a></h4>
+                                                    <h4><a href="https://www.tunecore.com/blog/2018/05/wednesday-video-diversion-may-16-2018.html">Wednesday Video Diversion: May 16, 2018</a></h4>
+                                            </div>
+					<div class="col-sm-4 text-right col-xs-12 center-vertical">
+                        <ul class="tunecore-footer-questions"><li id="menu-item-31770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31770"><a target="_blank" href="https://support.tunecore.com/hc/en-us">Got Questions? Get Help!</a></li>
+</ul>					</div>
+				</div>
+				</div>
+				<hr class="hidden-xs">
+				<div class="container">
+				<div class="row flex-row-sm">
+					<div class="col-sm-3 nav-col">
+						<h5>
+							<a href="#toggle" class="expand visible-xs" data-id="menu-1">Learn About TuneCore</a>
+							<span class="hidden-xs">Learn About TuneCore</span>
+						</h5>
+						<div class="expandable" id="menu-1"><div class="menu-learn-about-tunecore-container"><ul id="menu-learn-about-tunecore" class="menu"><li id="menu-item-31781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31781"><a href="https://www.tunecore.com/what-is-tunecore">What Is TuneCore</a></li>
+<li id="menu-item-31778" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31778"><a href="https://www.tunecore.com/bios">Our Team</a></li>
+<li id="menu-item-31777" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31777"><a href="https://www.tunecore.com/careers">Careers</a></li>
+<li id="menu-item-31779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31779"><a href="https://www.tunecore.com/press">Press &#038; Media</a></li>
+<li id="menu-item-31780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31780"><a href="https://www.tunecore.com/terms">Terms and Conditions</a></li>
+</ul></div></div>
+					</div>	
+					<div class="col-sm-3 nav-col">
+						<h5>
+							<a href="#toggle" class="expand visible-xs" data-id="menu-2">Make Money With TuneCore</a>
+							<span class="hidden-xs">Make Money With TuneCore</span>
+						</h5>
+						<div class="expandable" id="menu-2"><div class="menu-make-money-with-tunecore-container"><ul id="menu-make-money-with-tunecore" class="menu"><li id="menu-item-31782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31782"><a href="https://web.tunecore.com/signup">Create Your Account</a></li>
+<li id="menu-item-31784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31784"><a href="https://www.tunecore.com/music-publishing-administration">Music Publishing</a></li>
+<li id="menu-item-31783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31783"><a href="https://www.tunecore.com/artist-services">Artist Services</a></li>
+</ul></div></div>
+					</div>	
+					<div class="col-sm-3 nav-col">
+						<h5>
+							<a href="#toggle" class="expand visible-xs" data-id="menu-3">TuneCore Community</a>
+							<span class="hidden-xs">TuneCore Community</span>
+						</h5>
+						<div class="expandable" id="menu-3"><div class="menu-tunecore-community-container"><ul id="menu-tunecore-community" class="menu"><li id="menu-item-31785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31785"><a href="https://www.facebook.com/TuneCore">Facebook</a></li>
+<li id="menu-item-31786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31786"><a href="https://twitter.com/TuneCore">Twitter</a></li>
+<li id="menu-item-31787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31787"><a href="https://instagram.com/tunecore">Instagram</a></li>
+<li id="menu-item-31788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31788"><a href="/blog">Blog</a></li>
+</ul></div></div>
+					</div>	
+					<div class="col-sm-3 nav-col">
+						<h5>
+							<a href="#toggle" class="expand visible-xs" data-id="menu-4">Account Services</a>
+							<span class="hidden-xs">Account Services</span>
+						</h5>
+						<div class="expandable" id="menu-4"><div class="menu-account-services-container"><ul id="menu-account-services" class="menu"><li id="menu-item-31768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31768"><a target="_blank" href="https://web.tunecore.com/login">Login</a></li>
+<li id="menu-item-31769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31769"><a target="_blank" href="https://support.tunecore.com/hc/en-us/articles/115006501747">Contact</a></li>
+</ul></div></div>
+					</div>	
+				</div>
+				</div>
+			</footer>
+			<!-- /footer -->
+			<div class="overlay" id="modal">
+				<div class="button_container active" id="modal-button">
+					<span class="top"></span>
+					<span class="middle"></span>
+					<span class="bottom"></span>
+				</div>
+                <div class="tunecore-modal-content">
+                </div>
+			</div>
+<script type="text/javascript">var frontPageActive = true;</script>		<script type="text/javascript">
+
+if(typeof jQuery == 'undefined' || typeof jQuery.fn.on == 'undefined') {
+	document.write('<script src="https://www.tunecore.com/wp-includes/js/jquery/jquery.js"><\/script>');
+	document.write('<script src="https://www.tunecore.com/wp-includes/js/jquery/jquery-migrate.min.js"><\/script>');
+}
+
+</script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-content/uploads/bb-plugin/cache/9-layout.js?ver=b1766ad01f063b8d54872ff3aff1c357'></script>
+<script type='text/javascript' src='https://www.tunecore.com/wp-includes/js/wp-embed.min.js?ver=4.9.5'></script>
+            <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+            </body>
+</html>
