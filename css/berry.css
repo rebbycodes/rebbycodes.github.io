@@ -26,4 +26,89 @@ body {
     width: 100%;
 }
 
+.site-navigation {
+
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+
+}
+
+#CybotCookiebotDialog {
+
+    animation: none;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+animation-iteration-count: 1;
+
+animation-name: none;
+
+animation-play-state: running;
+
+animation-timing-function: ease;
+
+backface-visibility: visible;
+
+background: #ffffff;
+background-clip: border-box;
+
+background-origin: padding-box;
+
+background-position-x: 0;
+
+background-position-y: 0;
+
+background-size: auto auto;
+    border-bottom-color: inherit;
+
+border-collapse: separate;
+
+border-image: none;
+
+border-left: 0;
+    border-left-color: inherit;
+
+border-radius: 0;
+
+border-right: 0;
+    border-right-color: inherit;
+
+border-spacing: 0;
+
+border-top: 0;
+    border-top-color: inherit;
+
+bottom: auto;
+
+caption-side: top;
+
+clear: none;
+
+clip: auto;
+    column-count: auto;
+
+column-fill: balance;
+
+column-gap: normal;
+
+column-rule: medium none currentColor;column-rule-color: currentColor;
+
+column-rule-style: none;
+    column-width: auto;
+
+content: normal;
+
+counter-increment: none;
+
+counter-reset: none;
+
+cursor: auto;
+    empty-cells: show;
+
+
 
